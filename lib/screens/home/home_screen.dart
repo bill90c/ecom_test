@@ -19,6 +19,11 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               HomeHeader(),
+              SizedBox(height: 10),
+              Text(
+                'Welcome Bilal Laroussi',
+                style: TextStyle(fontSize: 18),
+              ),
               DiscountBanner(),
               Categories(),
               SpecialOffers(),

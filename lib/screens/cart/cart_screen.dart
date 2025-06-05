@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../../models/Cart.dart';
 import 'components/cart_card.dart';
 import 'components/check_out_card.dart';
+import '../../constants.dart';
 
 class CartScreen extends StatefulWidget {
   static String routeName = "/cart";
@@ -23,7 +24,7 @@ class _CartScreenState extends State<CartScreen> {
           children: [
             const Text(
               "Your Cart",
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(color: kTextColor),
             ),
             Text(
               "${demoCarts.length} items",
