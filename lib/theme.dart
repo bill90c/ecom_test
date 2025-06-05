@@ -3,15 +3,16 @@ import 'package:flutter/material.dart';
 import 'constants.dart';
 
 class AppTheme {
-  static ThemeData lightTheme(BuildContext context) {
+  static ThemeData darkTheme(BuildContext context) {
     return ThemeData(
-      scaffoldBackgroundColor: Colors.white,
+      brightness: Brightness.dark,
+      scaffoldBackgroundColor: Colors.black,
       fontFamily: "Muli",
       appBarTheme: const AppBarTheme(
-          color: Colors.white,
+          color: Colors.black,
           elevation: 0,
-          iconTheme: IconThemeData(color: Colors.black),
-          titleTextStyle: TextStyle(color: Colors.black)),
+          iconTheme: IconThemeData(color: Colors.white),
+          titleTextStyle: TextStyle(color: Colors.white)),
       textTheme: const TextTheme(
         bodyLarge: TextStyle(color: kTextColor),
         bodyMedium: TextStyle(color: kTextColor),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'components/forgot_pass_form.dart';
+import '../../constants.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {
   static String routeName = "/forgot_password";
@@ -24,7 +25,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                   "Forgot Password",
                   style: TextStyle(
                     fontSize: 24,
-                    color: Colors.black,
+                    color: kTextColor,
                     fontWeight: FontWeight.bold,
                   ),
                 ),

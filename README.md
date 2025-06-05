@@ -13,6 +13,8 @@ Visit FlutterLibrary.com to Download the [Flutter e-commerce app template](https
 
 ## Screens it contains:
 
+This build uses a dark theme with blue accent colors.
+
 => Onboarding
 
 => Login

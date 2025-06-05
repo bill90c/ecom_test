@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../components/no_account_text.dart';
 import '../../components/socal_card.dart';
 import 'components/sign_form.dart';
+import '../../constants.dart';
 
 class SignInScreen extends StatelessWidget {
   static String routeName = "/sign_in";
@@ -26,7 +27,7 @@ class SignInScreen extends StatelessWidget {
                   const Text(
                     "Welcome Back",
                     style: TextStyle(
-                      color: Colors.black,
+                      color: kTextColor,
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
                     ),

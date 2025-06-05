@@ -8,14 +8,14 @@ const kPrimaryGradientColor = LinearGradient(
   colors: [Color(0xFF64B5F6), Color(0xFF2196F3)],
 );
 const kSecondaryColor = Color(0xFF979797);
-const kTextColor = Colors.black;
+const kTextColor = Colors.white;
 
 const kAnimationDuration = Duration(milliseconds: 200);
 
 const headingStyle = TextStyle(
   fontSize: 24,
   fontWeight: FontWeight.bold,
-  color: Colors.black,
+  color: Colors.white,
   height: 1.5,
 );
 
