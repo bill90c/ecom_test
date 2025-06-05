@@ -7,6 +7,7 @@ import 'components/color_dots.dart';
 import 'components/product_description.dart';
 import 'components/product_images.dart';
 import 'components/top_rounded_container.dart';
+import '../../constants.dart';
 
 class DetailsScreen extends StatelessWidget {
   static String routeName = "/details";
@@ -39,7 +40,7 @@ class DetailsScreen extends StatelessWidget {
             ),
             child: const Icon(
               Icons.arrow_back_ios_new,
-              color: Colors.black,
+              color: Colors.white,
               size: 20,
             ),
           ),
@@ -61,7 +62,7 @@ class DetailsScreen extends StatelessWidget {
                       "4.7",
                       style: TextStyle(
                         fontSize: 14,
-                        color: Colors.black,
+                        color: kTextColor,
                         fontWeight: FontWeight.w600,
                       ),
                     ),

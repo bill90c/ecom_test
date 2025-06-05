@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app/screens/init_screen.dart';
+import '../../constants.dart';
 
 class LoginSuccessScreen extends StatelessWidget {
   static String routeName = "/login_success";
@@ -25,7 +26,7 @@ class LoginSuccessScreen extends StatelessWidget {
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold,
-              color: Colors.black,
+              color: kTextColor,
             ),
           ),
           const Spacer(),
