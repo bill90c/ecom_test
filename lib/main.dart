@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'The Flutter Way - Template',
-      theme: AppTheme.lightTheme(context),
+      theme: AppTheme.darkTheme(context),
       initialRoute: SplashScreen.routeName,
       routes: routes,
     );
