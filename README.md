@@ -2,7 +2,6 @@
 
 ### Checkout [Serverpod.dev](https://cutt.ly/Per1Z7ri) - The Flutter Backend
 
-Originally an e‑commerce template, this project has been rebuilt into a simple chat application inspired by WhatsApp and Signal. It features a dark theme with blue accents, a chat list, and a conversation view where you can send messages.
 
 ## Screens
 
@@ -19,7 +18,7 @@ The current build includes:
 * Profile
 * Bottom Navigation Bar
 
-The screenshots below show the earlier UI from the original template.
+
 
 ## Photos
 ![Preview](/1.png)
